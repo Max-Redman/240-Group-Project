@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Yonatan was here");
 
         System.out.println("Yay it works!!!");
+        System.out.println("Yay it really works!!!");
 
     }
 }
