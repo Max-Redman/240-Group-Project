@@ -6,5 +6,7 @@ public class Main {
         System.out.println("Max was here!");
         System.out.println("Yonatan was here");
 
+        System.out.println("Yay it works!!!");
+
     }
 }
