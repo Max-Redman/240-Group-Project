@@ -4,6 +4,7 @@ public class Main {
         System.out.println("Hello World");
         System.out.println("Masen was here");
         System.out.println("Max was here!");
+        System.out.println("Yonatan was here");
 
     }
 }
