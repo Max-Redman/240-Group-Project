@@ -165,7 +165,6 @@ Maybe make it top 3?
 
                     PrintWriter writer = new PrintWriter(file);
                     writer.println(topScore);
-                    writer.close();
                 }
             } catch (Exception e) {
                 System.err.println("Error");
