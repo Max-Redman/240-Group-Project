@@ -147,4 +147,37 @@ import java.awt.event.*;
         }
     }
 
+        private  int topScore;
+
+        private void loadTopScore() {
+            try {
+                File file = new File("topscore.txt");
+                if (file.exists()) {
+                    Scanner scanner = new Scanner(file);
+
+                    topScore = scanner.nextInt();
+
+                } else {
+
+                    topScore = 0;
+
+                    PrintWriter writer = new PrintWriter(file);
+                    writer.println(topScore);
+                    writer.close();
+                }
+            } catch (Exception e) {
+                System.err.println("Error");
+            }
+        }
+        private void saveTopScore() {
+            try {
+                PrintWriter writer = new PrintWriter("topscore.txt");
+
+                writer.println(topScore);
+
+            } catch (Exception e) {
+                System.err.println("Error");
+            }
+        }
+
 }
