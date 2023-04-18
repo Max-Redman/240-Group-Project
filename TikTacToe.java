@@ -158,7 +158,9 @@ import java.awt.event.*;
                     topScore = scanner.nextInt();
 
                 } else {
-
+/* I am going to make it so the user inputs a name for the top score!!!
+Maybe make it top 3?
+ */
                     topScore = 0;
 
                     PrintWriter writer = new PrintWriter(file);
