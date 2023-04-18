@@ -1,0 +1,9 @@
+Index: Project.java
+===================================================================
+diff --git a/Project.java b/Project.java
+deleted file mode 100644
+--- a/Project.java	(revision 77b2f6e09390719da224697112c948427c4ba53d)
++++ /dev/null	(revision 77b2f6e09390719da224697112c948427c4ba53d)
+@@ -1,2 +0,0 @@
+-public class Project {
+-}
